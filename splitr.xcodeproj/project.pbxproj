@@ -6,13 +6,70 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3C7257262DE5592F0048250C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3C7257252DE5592F0048250C /* FirebaseAuth */; };
+		3C7257282DE5592F0048250C /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 3C7257272DE5592F0048250C /* FirebaseCore */; };
+		3C72572B2DE55D4C0048250C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72572A2DE55D4C0048250C /* AuthService.swift */; };
+		3C72572E2DE55DC30048250C /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72572D2DE55DB90048250C /* AuthViewModel.swift */; };
+		3C7257302DE55DF10048250C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72572F2DE55DF10048250C /* RegisterView.swift */; };
+		3C7257322DE55E0F0048250C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257312DE55E0F0048250C /* LoginView.swift */; };
+		3C7257372DE55F0C0048250C /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257362DE55F0C0048250C /* View+Extension.swift */; };
+		3C72573B2DE56C670048250C /* ScanReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72573A2DE56C670048250C /* ScanReceiptView.swift */; };
+		3C72573F2DE56FD90048250C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72573E2DE56FD90048250C /* MainTabView.swift */; };
+		3C7257412DE56FF50048250C /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257402DE56FF50048250C /* HomeTabView.swift */; };
+		3C7257432DE570020048250C /* CameraTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257422DE570020048250C /* CameraTabView.swift */; };
+		3C7257452DE5700E0048250C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257442DE5700E0048250C /* ProfileView.swift */; };
+		3C7257492DE570320048250C /* ReceiptHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257482DE570320048250C /* ReceiptHistoryViewModel.swift */; };
+		3C7257502DE57FA60048250C /* ReviewItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72574F2DE57FA60048250C /* ReviewItemsViewModel.swift */; };
+		3C7257522DE57FB00048250C /* ReviewItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257512DE57FB00048250C /* ReviewItemsView.swift */; };
+		3C7257542DE583000048250C /* ReceiptParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257532DE583000048250C /* ReceiptParserService.swift */; };
+		3C72575B2DE5865A0048250C /* LLMReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72575A2DE5863E0048250C /* LLMReceipt.swift */; };
+		3C72575C2DE5865D0048250C /* LLMLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257592DE586380048250C /* LLMLineItem.swift */; };
+		3C72575D2DE586610048250C /* LineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257582DE586310048250C /* LineItem.swift */; };
+		3C72575E2DE586640048250C /* Receipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257572DE5862B0048250C /* Receipt.swift */; };
+		3C7257622DE58AEF0048250C /* GeminiVisionParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7257612DE58AEF0048250C /* GeminiVisionParserService.swift */; };
+		3C7257642DE590580048250C /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = 3C7257632DE590580048250C /* FirebaseAI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3C7257142DE557E20048250C /* splitr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = splitr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C72572A2DE55D4C0048250C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		3C72572D2DE55DB90048250C /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		3C72572F2DE55DF10048250C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3C7257312DE55E0F0048250C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3C7257362DE55F0C0048250C /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		3C72573A2DE56C670048250C /* ScanReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanReceiptView.swift; sourceTree = "<group>"; };
+		3C72573E2DE56FD90048250C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		3C7257402DE56FF50048250C /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		3C7257422DE570020048250C /* CameraTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTabView.swift; sourceTree = "<group>"; };
+		3C7257442DE5700E0048250C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3C7257482DE570320048250C /* ReceiptHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptHistoryViewModel.swift; sourceTree = "<group>"; };
+		3C72574F2DE57FA60048250C /* ReviewItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewItemsViewModel.swift; sourceTree = "<group>"; };
+		3C7257512DE57FB00048250C /* ReviewItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewItemsView.swift; sourceTree = "<group>"; };
+		3C7257532DE583000048250C /* ReceiptParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptParserService.swift; sourceTree = "<group>"; };
+		3C7257572DE5862B0048250C /* Receipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receipt.swift; sourceTree = "<group>"; };
+		3C7257582DE586310048250C /* LineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineItem.swift; sourceTree = "<group>"; };
+		3C7257592DE586380048250C /* LLMLineItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMLineItem.swift; sourceTree = "<group>"; };
+		3C72575A2DE5863E0048250C /* LLMReceipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMReceipt.swift; sourceTree = "<group>"; };
+		3C7257612DE58AEF0048250C /* GeminiVisionParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiVisionParserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3C7257392DE5622F0048250C /* Exceptions for "splitr" folder in "splitr" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3C7257132DE557E20048250C /* splitr */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3C7257162DE557E20048250C /* splitr */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3C7257392DE5622F0048250C /* Exceptions for "splitr" folder in "splitr" target */,
+			);
 			path = splitr;
 			sourceTree = "<group>";
 		};
@@ -23,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7257282DE5592F0048250C /* FirebaseCore in Frameworks */,
+				3C7257262DE5592F0048250C /* FirebaseAuth in Frameworks */,
+				3C7257642DE590580048250C /* FirebaseAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +92,10 @@
 		3C72570B2DE557E20048250C = {
 			isa = PBXGroup;
 			children = (
+				3C72574A2DE570790048250C /* Models */,
+				3C7257332DE55E590048250C /* Views */,
+				3C72572C2DE55DA60048250C /* ViewModels */,
+				3C7257292DE55D1A0048250C /* Services */,
 				3C7257162DE557E20048250C /* splitr */,
 				3C7257152DE557E20048250C /* Products */,
 			);
@@ -43,6 +107,53 @@
 				3C7257142DE557E20048250C /* splitr.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7257292DE55D1A0048250C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3C7257612DE58AEF0048250C /* GeminiVisionParserService.swift */,
+				3C7257532DE583000048250C /* ReceiptParserService.swift */,
+				3C72572A2DE55D4C0048250C /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3C72572C2DE55DA60048250C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3C72574F2DE57FA60048250C /* ReviewItemsViewModel.swift */,
+				3C7257482DE570320048250C /* ReceiptHistoryViewModel.swift */,
+				3C72572D2DE55DB90048250C /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3C7257332DE55E590048250C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C7257512DE57FB00048250C /* ReviewItemsView.swift */,
+				3C7257442DE5700E0048250C /* ProfileView.swift */,
+				3C7257422DE570020048250C /* CameraTabView.swift */,
+				3C7257402DE56FF50048250C /* HomeTabView.swift */,
+				3C72573E2DE56FD90048250C /* MainTabView.swift */,
+				3C72573A2DE56C670048250C /* ScanReceiptView.swift */,
+				3C72572F2DE55DF10048250C /* RegisterView.swift */,
+				3C7257312DE55E0F0048250C /* LoginView.swift */,
+				3C7257362DE55F0C0048250C /* View+Extension.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C72574A2DE570790048250C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C72575A2DE5863E0048250C /* LLMReceipt.swift */,
+				3C7257592DE586380048250C /* LLMLineItem.swift */,
+				3C7257582DE586310048250C /* LineItem.swift */,
+				3C7257572DE5862B0048250C /* Receipt.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +176,9 @@
 			);
 			name = splitr;
 			packageProductDependencies = (
+				3C7257252DE5592F0048250C /* FirebaseAuth */,
+				3C7257272DE5592F0048250C /* FirebaseCore */,
+				3C7257632DE590580048250C /* FirebaseAI */,
 			);
 			productName = splitr;
 			productReference = 3C7257142DE557E20048250C /* splitr.app */;
@@ -94,6 +208,9 @@
 			);
 			mainGroup = 3C72570B2DE557E20048250C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3C7257242DE5592F0048250C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3C7257152DE557E20048250C /* Products */;
 			projectDirPath = "";
@@ -119,6 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7257522DE57FB00048250C /* ReviewItemsView.swift in Sources */,
+				3C7257322DE55E0F0048250C /* LoginView.swift in Sources */,
+				3C7257452DE5700E0048250C /* ProfileView.swift in Sources */,
+				3C72575D2DE586610048250C /* LineItem.swift in Sources */,
+				3C7257542DE583000048250C /* ReceiptParserService.swift in Sources */,
+				3C72575C2DE5865D0048250C /* LLMLineItem.swift in Sources */,
+				3C72575B2DE5865A0048250C /* LLMReceipt.swift in Sources */,
+				3C7257372DE55F0C0048250C /* View+Extension.swift in Sources */,
+				3C72572E2DE55DC30048250C /* AuthViewModel.swift in Sources */,
+				3C7257502DE57FA60048250C /* ReviewItemsViewModel.swift in Sources */,
+				3C72573F2DE56FD90048250C /* MainTabView.swift in Sources */,
+				3C7257412DE56FF50048250C /* HomeTabView.swift in Sources */,
+				3C7257302DE55DF10048250C /* RegisterView.swift in Sources */,
+				3C7257622DE58AEF0048250C /* GeminiVisionParserService.swift in Sources */,
+				3C72573B2DE56C670048250C /* ScanReceiptView.swift in Sources */,
+				3C72572B2DE55D4C0048250C /* AuthService.swift in Sources */,
+				3C7257432DE570020048250C /* CameraTabView.swift in Sources */,
+				3C72575E2DE586640048250C /* Receipt.swift in Sources */,
+				3C7257492DE570320048250C /* ReceiptHistoryViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +392,14 @@
 				DEVELOPMENT_TEAM = 3VEXVB3ZTS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = splitr/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requiring camera to scan each receipt.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,11 +423,14 @@
 				DEVELOPMENT_TEAM = 3VEXVB3ZTS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = splitr/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requiring camera to scan each receipt.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +466,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C7257242DE5592F0048250C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C7257252DE5592F0048250C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C7257242DE5592F0048250C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3C7257272DE5592F0048250C /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C7257242DE5592F0048250C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		3C7257632DE590580048250C /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C7257242DE5592F0048250C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C72570C2DE557E20048250C /* Project object */;
 }
